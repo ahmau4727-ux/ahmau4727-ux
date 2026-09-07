@@ -55,6 +55,14 @@
 
 ---
 
+### 🧭 Skill Matrix
+
+<div align="center">
+  <img width="60%" src="https://raw.githubusercontent.com/ahmau4727-ux/ahmau4727-ux/main/skills-radar.svg" alt="Skill Matrix" />
+</div>
+
+---
+
 ### 📊 GitHub Dashboard
 
 <div align="center">

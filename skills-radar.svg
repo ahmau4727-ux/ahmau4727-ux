@@ -1,0 +1,64 @@
+<svg width="900" height="520" viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="rbg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#101c2e"/>
+      <stop offset="100%" stop-color="#050a12"/>
+    </radialGradient>
+    <linearGradient id="rfill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4f9dff" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="rline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#7cc4ff"/>
+    </linearGradient>
+    <filter id="rglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="520" rx="18" fill="url(#rbg)"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="22" letter-spacing="8" fill="#FFD700">SKILL MATRIX</text>
+
+  <!-- rings (center 450,280 radius up to 160) -->
+  <g stroke="#2a3b52" stroke-width="1.2" fill="none">
+    <polygon points="450,120 588.6,200 588.6,360 450,440 311.4,360 311.4,200"/>
+    <polygon points="450,160 554.7,220 554.7,340 450,400 345.3,340 345.3,220"/>
+    <polygon points="450,200 520.8,240 520.8,320 450,360 379.2,320 379.2,240"/>
+    <polygon points="450,240 486.9,260 486.9,300 450,320 413.1,300 413.1,260"/>
+  </g>
+  <!-- spokes -->
+  <g stroke="#2a3b52" stroke-width="1">
+    <line x1="450" y1="280" x2="450" y2="120"/>
+    <line x1="450" y1="280" x2="588.6" y2="200"/>
+    <line x1="450" y1="280" x2="588.6" y2="360"/>
+    <line x1="450" y1="280" x2="450" y2="440"/>
+    <line x1="450" y1="280" x2="311.4" y2="360"/>
+    <line x1="450" y1="280" x2="311.4" y2="200"/>
+  </g>
+
+  <!-- data polygon: values 0.95,0.9,0.85,0.8,0.75,0.85 of radius 160 -->
+  <polygon points="450,128 580,207.2 572.7,332 462.6,432 340.6,348 324,211.2"
+           fill="url(#rfill)" stroke="url(#rline)" stroke-width="2.5" filter="url(#rglow)"/>
+
+  <!-- vertex dots -->
+  <g fill="#FFD700">
+    <circle cx="450" cy="128" r="5"/>
+    <circle cx="580" cy="207.2" r="5"/>
+    <circle cx="572.7" cy="332" r="5"/>
+    <circle cx="462.6" cy="432" r="5"/>
+    <circle cx="340.6" cy="348" r="5"/>
+    <circle cx="324" cy="211.2" r="5"/>
+  </g>
+
+  <!-- labels -->
+  <g font-family="Menlo, Consolas, monospace" font-size="16" fill="#cfe3ff">
+    <text x="450" y="100" text-anchor="middle">Prompt Injection</text>
+    <text x="610" y="196" text-anchor="start">API Security</text>
+    <text x="608" y="376" text-anchor="start">Python / FastAPI</text>
+    <text x="450" y="472" text-anchor="middle">Next.js / Web</text>
+    <text x="296" y="376" text-anchor="end">Research & Writing</text>
+    <text x="296" y="196" text-anchor="end">Responsible Disclosure</text>
+  </g>
+</svg>
