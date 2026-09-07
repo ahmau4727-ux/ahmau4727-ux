@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<img src="https://raw.githubusercontent.com/avxen/avxen/main/header-banner.svg" width="100%" alt="Header Banner" />
+<img src="header-banner.svg" width="100%" alt="Header Banner" />
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=avxen&style=for-the-badge&label=VIEWS&color=FFD700" alt="Profile Views" />
@@ -63,7 +63,7 @@
 ### 🧭 Skill Matrix
 
 <div align="center">
-  <img width="58%" src="https://raw.githubusercontent.com/avxen/avxen/main/skills-radar.svg" alt="Skill Matrix" />
+  <img width="58%" src="skills-radar.svg" alt="Skill Matrix" />
 </div>
 
 ---
