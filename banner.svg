@@ -1,0 +1,68 @@
+<svg width="1400" height="350" viewBox="0 0 1400 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="80%">
+      <stop offset="0%" stop-color="#0d1b2a"/>
+      <stop offset="60%" stop-color="#060d18"/>
+      <stop offset="100%" stop-color="#020509"/>
+    </radialGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4f9dff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4f9dff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7cc4ff"/>
+      <stop offset="45%" stop-color="#eaf6ff"/>
+      <stop offset="55%" stop-color="#eaf6ff"/>
+      <stop offset="100%" stop-color="#7cc4ff"/>
+    </linearGradient>
+    <linearGradient id="sub" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5aa9ff"/>
+      <stop offset="50%" stop-color="#9fd0ff"/>
+      <stop offset="100%" stop-color="#5aa9ff"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="350" fill="url(#bg)"/>
+
+  <!-- light rays -->
+  <g opacity="0.85">
+    <polygon points="700,60 660,350 740,350" fill="url(#ray)"/>
+    <polygon points="700,60 560,350 640,350" fill="url(#ray)" opacity="0.7"/>
+    <polygon points="700,60 760,350 840,350" fill="url(#ray)" opacity="0.7"/>
+    <polygon points="700,60 420,350 500,350" fill="url(#ray)" opacity="0.45"/>
+    <polygon points="700,60 900,350 980,350" fill="url(#ray)" opacity="0.45"/>
+    <polygon points="700,60 280,350 360,350" fill="url(#ray)" opacity="0.25"/>
+    <polygon points="700,60 1040,350 1120,350" fill="url(#ray)" opacity="0.25"/>
+  </g>
+
+  <!-- horizon glow line -->
+  <rect x="150" y="292" width="1100" height="2" fill="url(#sub)" opacity="0.55" filter="url(#softglow)"/>
+
+  <!-- main title -->
+  <text x="700" y="205" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="120" font-weight="900" letter-spacing="26" fill="url(#gold)" filter="url(#glow)">AHMED</text>
+
+  <!-- subtitle -->
+  <text x="700" y="262" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="24" letter-spacing="12" fill="url(#sub)" filter="url(#softglow)">AI SECURITY RESEARCH</text>
+
+  <!-- corner ticks -->
+  <g stroke="#4f9dff" stroke-width="2" opacity="0.7">
+    <path d="M 60 40 h 40 M 60 40 v 40" fill="none"/>
+    <path d="M 1340 40 h -40 M 1340 40 v 40" fill="none"/>
+    <path d="M 60 310 h 40 M 60 310 v -40" fill="none"/>
+    <path d="M 1340 310 h -40 M 1340 310 v -40" fill="none"/>
+  </g>
+</svg>

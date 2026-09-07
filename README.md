@@ -1,4 +1,6 @@
-<h1 align="center">🜁 signalproof</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ahmau4727-ux/ahmau4727-ux/main/banner.svg" width="100%" alt="AHMED — AI Security Research"/>
+</p>
 <p align="center">
   <em>AI Security Research · Prompt Injection · System-Prompt Extraction</em>
 </p>
