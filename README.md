@@ -1,12 +1,12 @@
 <div align="center">
 
 <!-- GOLD WAVING HEADER -->
-<img src="https://capsule-render.vercel.app/render?type=waving&color=0:8B5A00,50:FFD700,100:8B5A00&height=200&section=header&text=AHMED&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=AI%20SECURITY%20RESEARCH%20%C2%B7%20PROMPT%20INJECTION&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Header Banner" />
+<img src="https://raw.githubusercontent.com/ahmau4727-ux/ahmau4727-ux/main/header-banner.svg" width="100%" alt="Header Banner" />
 
 <!-- VIP BADGE ROW -->
 <p>
   <img src="https://img.shields.io/badge/🜁_VIP-Researcher-FFD700?style=for-the-badge&labelColor=0D1117" alt="VIP" />
-  <img src="https://komarev.com/ghpvc/?username=ahmau4727-ux&style=for-the-badge&label=VIEWS&color=gold" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=ahmau4727-ux&style=for-the-badge&label=VIEWS&color=FFD700" alt="Profile Views" />
   <a href="https://t.me/scamguardbott"><img src="https://img.shields.io/badge/Telegram-0D1117?style=for-the-badge&logo=telegram&logoColor=FFD700" alt="Telegram" /></a>
 </p>
 
@@ -87,4 +87,4 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/render?type=waving&color=0:8B5A00,50:FFD700,100:8B5A00&height=120&section=footer" width="100%" alt="Footer" />
+
