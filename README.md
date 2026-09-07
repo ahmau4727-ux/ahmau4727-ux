@@ -1,13 +1,18 @@
 <div align="center">
 
-<!-- GOLD WAVING HEADER -->
-<img src="https://raw.githubusercontent.com/ahmau4727-ux/ahmau4727-ux/main/header-banner.svg" width="100%" alt="Header Banner" />
+<!-- HEADER BANNER -->
+<img src="https://raw.githubusercontent.com/avxen/avxen/main/header-banner.svg" width="100%" alt="Header Banner" />
 
-<!-- VIP BADGE ROW -->
 <p>
-  <img src="https://img.shields.io/badge/🜁_VIP-Researcher-FFD700?style=for-the-badge&labelColor=0D1117" alt="VIP" />
-  <img src="https://komarev.com/ghpvc/?username=ahmau4727-ux&style=for-the-badge&label=VIEWS&color=FFD700" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=avxen&style=for-the-badge&label=VIEWS&color=FFD700" alt="Profile Views" />
   <a href="https://t.me/scamguardbott"><img src="https://img.shields.io/badge/Telegram-0D1117?style=for-the-badge&logo=telegram&logoColor=FFD700" alt="Telegram" /></a>
+  <img src="https://img.shields.io/badge/Disclosure-Responsible-00E676?style=for-the-badge&labelColor=0D1117" alt="Responsible Disclosure" />
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Field-LLM_Security-0D1117?style=flat-square&logo=openai&logoColor=FFD700" />
+  <img src="https://img.shields.io/badge/Specialty-Prompt_Injection-0D1117?style=flat-square&logo=shield&logoColor=FFD700" />
+  <img src="https://img.shields.io/badge/Status-Open_to_Projects-0D1117?style=flat-square&logo=checkmarx&logoColor=00E676" />
 </p>
 
 </div>
@@ -20,9 +25,9 @@
 >
 > 🏅 Found and reported a reproducible **system-prompt extraction vulnerability in Google's Gemini API** through the official Google VRP — full responsible-disclosure lifecycle: report → triage → appeal with expanded evidence → final decision → documentation.
 >
-> 🧪 Multi-campaign reproduction with honest quantified results — 50% leak rate across two independent campaigns.
+> 🧪 Multi-campaign reproduction with honest quantified results — 50% leak rate across two independent campaigns. Never claims above the data.
 >
-> 🌍 English · Kurdish (Sorani) · Arabic &nbsp;|&nbsp; 🎯 Open to security research & writing projects
+> 🌍 English · Kurdish (Sorani) · Arabic &nbsp;|&nbsp; 🎯 Open to security research & technical writing projects
 
 ---
 
@@ -58,7 +63,7 @@
 ### 🧭 Skill Matrix
 
 <div align="center">
-  <img width="60%" src="https://raw.githubusercontent.com/ahmau4727-ux/ahmau4727-ux/main/skills-radar.svg" alt="Skill Matrix" />
+  <img width="58%" src="https://raw.githubusercontent.com/avxen/avxen/main/skills-radar.svg" alt="Skill Matrix" />
 </div>
 
 ---
@@ -66,24 +71,24 @@
 ### 📊 GitHub Dashboard
 
 <div align="center">
-  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmau4727-ux&theme=tokyonight" alt="Profile Details" />
+  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=avxen&theme=merko" alt="Profile Details" />
 </div>
 <br />
 <div align="center">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmau4727-ux&theme=tokyonight" alt="Repos per language" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ahmau4727-ux&theme=tokyonight" alt="Most commit language" />
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmau4727-ux&theme=tokyonight" alt="Stats" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=avxen&theme=merko" alt="Repos per language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=avxen&theme=merko" alt="Most commit language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=avxen&theme=merko" alt="Stats" />
 </div>
 <br />
 <div align="center">
-  <img width="65%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ahmau4727-ux&theme=tokyonight" alt="Productive time" />
+  <img width="65%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=avxen&theme=merko" alt="Productive time" />
 </div>
 
 <br />
 
 <div align="center">
 
-⭐️ *Security research published under the signalproof handle* | **AHMED**
+⭐️ *Security research published under the* **avxen** *handle*
 
 </div>
 

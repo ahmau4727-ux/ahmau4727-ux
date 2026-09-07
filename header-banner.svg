@@ -1,21 +1,17 @@
 <svg width="1400" height="280" viewBox="0 0 1400 280" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="hgold" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="hgold2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#8B5A00"/>
       <stop offset="25%" stop-color="#D4AF37"/>
       <stop offset="50%" stop-color="#FFDF00"/>
       <stop offset="75%" stop-color="#D4AF37"/>
       <stop offset="100%" stop-color="#8B5A00"/>
     </linearGradient>
-    <linearGradient id="hfade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="htext" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="htext2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="100%" stop-color="#FFF2C4"/>
     </linearGradient>
-    <filter id="hglow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="hglow2" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="10" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
@@ -23,11 +19,9 @@
 
   <rect width="1400" height="280" fill="#0D1117"/>
 
-  <!-- waving gold top band -->
-  <path d="M0,0 H1400 V150 C1200,200 1100,110 900,150 C700,190 600,110 420,150 C260,185 120,165 0,130 Z" fill="url(#hgold)"/>
+  <path d="M0,0 H1400 V150 C1200,200 1100,110 900,150 C700,190 600,110 420,150 C260,185 120,165 0,130 Z" fill="url(#hgold2)"/>
   <path d="M0,0 H1400 V110 C1150,150 980,80 780,115 C580,150 460,85 300,115 C180,137 80,128 0,105 Z" fill="#0D1117" opacity="0.25"/>
 
-  <!-- title -->
-  <text x="700" y="215" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="88" font-weight="900" letter-spacing="24" fill="url(#htext)" filter="url(#hglow)">AHMED</text>
+  <text x="700" y="215" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="88" font-weight="900" letter-spacing="24" fill="url(#htext2)" filter="url(#hglow2)">AVXEN</text>
   <text x="700" y="258" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="20" letter-spacing="10" fill="#FFD700" opacity="0.9">AI SECURITY RESEARCH &#183; PROMPT INJECTION</text>
 </svg>
