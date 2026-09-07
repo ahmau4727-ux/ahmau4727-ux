@@ -1,90 +1,82 @@
 <div align="center">
 
-  <!-- HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=gradient&customColorList=12,24,30&height=220&section=header&text=AHMED&fontSize=50&fontColor=ffffff&animation=twinkling" width="100%" alt="Header Banner" />
+<!-- GOLD WAVING HEADER -->
+<img src="https://capsule-render.vercel.app/render?type=waving&color=0:8B5A00,50:FFD700,100:8B5A00&height=200&section=header&text=AHMED&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=AI%20SECURITY%20RESEARCH%20%C2%B7%20PROMPT%20INJECTION&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Header Banner" />
 
-  <h3>⚡ AI Security Researcher · Prompt Injection · LLM APIs ⚡</h3>
-
-  <!-- BADGES -->
-  <p>
-    <a href="https://t.me/scamguardbott"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-    <img src="https://komarev.com/ghpvc/?username=ahmau4727-ux&style=for-the-badge&color=00e5ff" alt="Profile Views" />
-    <img src="https://img.shields.io/badge/Disclosure-Responsible-00E676?style=for-the-badge" alt="Responsible Disclosure" />
-  </p>
-
-  <p>
-    <img src="https://img.shields.io/badge/Field-LLM_Security-000000?style=flat-square&logo=openai&logoColor=white" />
-    <img src="https://img.shields.io/badge/Specialty-Prompt_Injection-orange?style=flat-square&logo=shield&logoColor=white" />
-    <img src="https://img.shields.io/badge/Status-Open_to_Projects-00E676?style=flat-square" />
-  </p>
+<!-- VIP BADGE ROW -->
+<p>
+  <img src="https://img.shields.io/badge/🜁_VIP-Researcher-FFD700?style=for-the-badge&labelColor=0D1117" alt="VIP" />
+  <img src="https://komarev.com/ghpvc/?username=ahmau4727-ux&style=for-the-badge&label=VIEWS&color=gold" alt="Profile Views" />
+  <a href="https://t.me/scamguardbott"><img src="https://img.shields.io/badge/Telegram-0D1117?style=for-the-badge&logo=telegram&logoColor=FFD700" alt="Telegram" /></a>
+</p>
 
 </div>
 
-<br />
+---
+
+### 👑 About
+
+> 🔐 **AI Security Researcher** — prompt injection, system-prompt extraction, and the security boundaries of LLM APIs.
+>
+> 🏅 Found and reported a reproducible **system-prompt extraction vulnerability in Google's Gemini API** through the official Google VRP — full responsible-disclosure lifecycle: report → triage → appeal with expanded evidence → final decision → documentation.
+>
+> 🧪 Multi-campaign reproduction with honest quantified results — 50% leak rate across two independent campaigns.
+>
+> 🌍 English · Kurdish (Sorani) · Arabic &nbsp;|&nbsp; 🎯 Open to security research & writing projects
 
 ---
 
-### 👑 About AHMED
+### 🧰 Stack
 
-- 🔐 **Focus:** Security research on LLM APIs — prompt injection, system-prompt extraction, instruction hierarchy.
-- 🏅 **Highlight:** Found and reported a reproducible system-prompt extraction vulnerability in Google's Gemini API through the official **Google VRP** — full responsible-disclosure lifecycle: report → triage → appeal with expanded evidence → final decision → documentation.
-- 🧪 **Method:** Multi-campaign reproduction with honest quantified results (50% leak rate across two independent campaigns) — never claims above the data.
-- 💡 **Ongoing:** Injection chains that cross from single-user leaks into user-data confidentiality impacts.
-- 🌍 **Languages:** English · Kurdish (Sorani) · Arabic
+<div align="center">
 
----
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
 
-### 🛠️ Tech Stack
-
-| Area | Tools & Technologies |
-| :--- | :--- |
-| **Languages** | `Python` `TypeScript` `JavaScript` `Bash` |
-| **Backend** | `FastAPI` `SQLAlchemy` `Alembic` `REST APIs` |
-| **Frontend** | `Next.js` `React` `Tailwind CSS` |
-| **Security** | `Prompt Injection Testing` `API Recon` `Responsible Disclosure` |
-| **Infra & Tools** | `GitHub Actions` `Vercel` `Telegram Bot API` `Git` |
-
-<br />
-
-```python
-# 💡 Quick Python Snippet
-class SecurityResearcher:
-    def __init__(self):
-        self.name = "AHMED"
-        self.focus = "LLM API Security"
-        self.skills = ["prompt injection", "system-prompt extraction", "responsible disclosure"]
-
-    def build(self) -> str:
-        return "Finding where AI boundaries fail, then documenting it clearly 🚀"
-```
+</div>
 
 ---
 
 ### 🚀 Builds
 
-| Project | What it is |
-| :--- | :--- |
-| **ScamGuard** | Trilingual (EN/KU/AR) Telegram scam-checker bot for the UK migrant community |
-| **FoodBank Finder** | Telegram bot locating the nearest UK food bank |
-| **GhostLab AI** | Defensive privacy & device-fingerprint research platform (FastAPI + Next.js) |
+| | Project | What it is |
+| :---: | :--- | :--- |
+| 🛡️ | **ScamGuard** | Trilingual (EN/KU/AR) Telegram scam-checker bot for the UK migrant community |
+| 🍲 | **FoodBank Finder** | Telegram bot locating the nearest UK food bank |
+| 🔬 | **GhostLab AI** | Defensive privacy & device-fingerprint research platform (FastAPI + Next.js) |
 
 ---
 
-### 📊 GitHub Stats (VIP View)
+### 📊 GitHub Dashboard
 
 <div align="center">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ahmau4727-ux&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=00E5FF" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmau4727-ux&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00E5FF" alt="Top Languages" />
+  <img width="99%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ahmau4727-ux&theme=tokyonight" alt="Profile Details" />
+</div>
+<br />
+<div align="center">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ahmau4727-ux&theme=tokyonight" alt="Repos per language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ahmau4727-ux&theme=tokyonight" alt="Most commit language" />
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ahmau4727-ux&theme=tokyonight" alt="Stats" />
+</div>
+<br />
+<div align="center">
+  <img width="65%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=ahmau4727-ux&theme=tokyonight" alt="Productive time" />
 </div>
 
 <br />
 
 <div align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmau4727-ux&theme=dark&hide_border=true&background=0D1117&ring=00E5FF&fire=00E5FF&currStreakLabel=00E5FF" alt="GitHub Streak" />
-</div>
 
-<div align="center">
-
-⭐️ Designed with passion for AI Security | AHMED
+⭐️ *Security research published under the signalproof handle* | **AHMED**
 
 </div>
+
+<img src="https://capsule-render.vercel.app/render?type=waving&color=0:8B5A00,50:FFD700,100:8B5A00&height=120&section=footer" width="100%" alt="Footer" />
